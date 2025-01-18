@@ -8,6 +8,16 @@ const HeadStyles = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+
+  @media(max-width: 800px){
+
+   display: flex;
+  flex-wrap: wrap;
+  padding: 14px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  }
 `
 
 const HeadH = styled.h1`
@@ -16,6 +26,14 @@ line-height: 150%;
   font-weight: 800;
   margin-right: 20px;
    color: #000;
+
+   @media(max-width: 800px){
+   line-height: 150%;
+  font-size: 30px;
+  font-weight: 800;
+  margin-right: 15px;
+   color: #000;
+   }
 `
 const HeadP = styled.p`
 line-height: 100%;
@@ -23,6 +41,14 @@ line-height: 100%;
   font-weight: 600;
   margin-left: 0px;
   color: #444444;
+
+  @media(max-width: 800px){
+  line-height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 0px;
+  color: #444444;
+  }
 `
 const Header = () => {
 

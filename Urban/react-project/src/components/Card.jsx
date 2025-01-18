@@ -10,6 +10,15 @@ const CardStyle = styled.div`
   max-width: 300px;
    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.24);
    position: relative;
+
+   @media(max-width: 800px){
+
+   border-radius: 10px;
+  padding: 15px;
+  max-width: 250px;
+   box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.24);
+   position: relative;
+   }
 `
 const CardTitle = styled.h4`
   line-height: 150%;
@@ -17,6 +26,15 @@ const CardTitle = styled.h4`
   font-weight: 600;
   color: #000;
   margin-top: 10px;
+
+  @media(max-width: 800px){
+
+  line-height: 150%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 8px;
+  }
 `
 const CardSubtitle = styled.p`
   line-height: 150%;
@@ -24,6 +42,14 @@ const CardSubtitle = styled.p`
   font-weight: 500;
   margin-top: 30px;
   color: #878787;
+
+  @media(max-width: 800px){
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 25px;
+  color: #878787;
+  }
 `
 
 const MenuButton = styled.button`
